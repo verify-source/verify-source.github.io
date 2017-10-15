@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "whatwg-fetch": "^2.0.3"
+  },
+  "name": "verify-source.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:verify-source/verify-source.github.io.git",
+  "author": "Chad Furman <chad@chadfurman.com>",
+  "license": "MIT"
+}
