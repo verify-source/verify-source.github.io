@@ -11,6 +11,14 @@
   "author": "Chad Furman <chad@chadfurman.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src/index.js -o dist.js --presets es2015,stage-2"
+    "build": "yarn webpack",
+    "webpack": "webpack --config config/webpack.config.js -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.1"
   }
 }
