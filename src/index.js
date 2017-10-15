@@ -1,11 +1,8 @@
-import fetch from 'whatwg-fetch'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-document.getElementById('begin-button').addEventListener('click', hearMe);
-
-function hearMe() {
-  fetch('/index.html').then(response => {
-    console.log(response)
-  })
-}
-
-
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();

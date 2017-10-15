@@ -1,24 +1,21 @@
 {
+  "name": "verify-source.com",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
+    "create-react-class": "^15.6.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "socket.io-client": "^2.0.3",
+    "standard": "^10.0.3",
+    "uuid": "^3.1.0",
     "whatwg-fetch": "^2.0.3"
   },
-  "name": "verify-source.com",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:verify-source/verify-source.github.io.git",
-  "author": "Chad Furman <chad@chadfurman.com>",
-  "license": "MIT",
   "scripts": {
-    "build": "yarn webpack",
-    "webpack": "webpack --config config/webpack.config.js -p"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "webpack": "^3.7.1",
-    "webpack-dev-server": "^2.9.1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
